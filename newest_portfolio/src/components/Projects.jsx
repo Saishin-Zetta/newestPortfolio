@@ -1,15 +1,18 @@
 import React from 'react'
+import img1 from '../images/gameBros.jpg'
 
 const Projects = () => {
     return (
 
         <div className="row">
             <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                <img
-                    src="../images/gameBros.jpg" 
+                <a href='https://gamebrobysarj.herokuapp.com/api/login'>
+                    <img
+                    src= {img1}
                     className="w-100 shadow-1-strong rounded mb-4"
-                    alt="Boat on Calm Water"
-                />
+                    alt="GameBro site"
+                    />
+                </a>
 
                 <img
                     src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"

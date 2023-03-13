@@ -1,19 +1,18 @@
 import React from 'react'
 
 const About = () => {
-    return (
-        <div>
-          <h1>About Page</h1>
-          <p>
-            Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-            Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-            mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-            lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-            imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-            in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-          </p>
-        </div>
-    );
+  return (
+    <div>
+      <h1>About Page</h1>
+      <p>
+        Hey there if you've found this page, you're in the right place.
+        My name is Andrew Young and I am a fullstack web developer.
+        I am 27 years old with a degree in business administration and organizational leadership.
+        I am currently in the Vanderbilt coding bootcamp where the work below is what I have to showcase.
+        As of right now this site is a work in progress, however I will be adding addtional features like my resume when it is fully functional.
+      </p>
+    </div>
+  );
 }
 
 export default About

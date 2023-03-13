@@ -1,24 +1,72 @@
 import React from 'react'
 
-const Contact = () => {
-    return (
-        <div>
-          <h1>Contact Page</h1>
-          <p>
-            Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-            molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-            magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-            efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-            mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-            posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-            faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-            ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-            dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-            rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-          </p>
+export default function Contact() {
+  return (
+    <section className="mb-4">
+      <h2 className="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
+      <p className="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me.</p>
+      <div className="row">
+        <div className="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="md-form mb-0">
+                  <input type="text" id="name" name="name" className="form-control"></input>
+                  <label for="name" className="">Your name</label>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="md-form mb-0">
+                  <input type="text" id="email" name="email" className="form-control"></input>
+                  <label for="email" className="">Your email</label>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-12">
+                <div className="md-form mb-0">
+                  <input type="text" id="subject" name="subject" className="form-control"></input>
+                  <label for="subject" className="">Subject</label>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-12">
+                <div className="md-form">
+                  <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea"></textarea>
+                  <label for="message">Your message</label>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div className="text-center text-md-left">
+            <a className="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div className="status"></div>
         </div>
-      );
+        <div className="col-md-3 text-center">
+          <ul className="list-unstyled mb-0">
+            <li><i className="fas fa-map-marker-alt fa-2x"></i>
+              <p>Nashville, TN 37027, USA</p>
+            </li>
+            <li><i className="fas fa-phone mt-4 fa-2x"></i>
+              <p>+ 01 615 587 7113</p>
+            </li>
+            <li><i className="fas fa-envelope mt-4 fa-2x"></i>
+              <p>andrewy3295@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  )
 }
 
-export default Contact
+
+
+
+
+
+
+
+
