@@ -11,14 +11,26 @@ import Projects from './components/Projects'
 function App() {
   return (
     <>
-    <header>Andrew Young's Portfolio</header>
-    <nav>
-      <a href='/about'>About</a>
-      <a href='/contact'>Contact</a>
-      <a href='/blog'>Blog</a>
-      <a href='/projects'>Project</a>
-    </nav>
-      
+      <header className='navbarHeader'>Andrew Young
+        <ul className="nav justify-content-center">
+          <li className="nav-item">
+            <a className="nav-link" href='/about'>About</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href='/contact'>Contact</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href='/blog'>Blog</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href='/projects'>Project</a>
+          </li>
+        </ul>
+      </header>
+
+
+
+
 
       <div className="App">
 

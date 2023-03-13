@@ -3,8 +3,8 @@ import React from 'react'
 const Blog = () => {
     return (
         <div>
-          <h1>Blog Page</h1>
-          <p>
+          <h1 className='textFont'>Blog Page</h1>
+          <p className='textFont'>
             Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
             Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
             dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
