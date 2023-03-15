@@ -77,4 +77,6 @@ body{
   font-weight: bold;
 }
 
-
+.pngimage{
+  height: fit-content;
+}

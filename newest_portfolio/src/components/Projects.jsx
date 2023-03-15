@@ -1,5 +1,12 @@
 import React from 'react'
 import img1 from '../images/gamebros2.jpg'
+import img2 from '../images/passGen.png'
+import img3 from '../images/noteTaker.png'
+import img4 from '../images/dailyPlanner.png'
+import img5 from '../images/MySQL-Logo.png'
+import img5 from '../images/textEditor.png'
+
+
 
 const Projects = () => {
     return (
@@ -8,45 +15,54 @@ const Projects = () => {
             <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
                 <a href='https://gamebrobysarj.herokuapp.com/api/login'>
                     <img
-                    src= {img1}
-                    className="w-100 shadow-1-strong rounded mb-4"
-                    alt="GameBro site"
+                        src={img1}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="GameBro site"
+                    />
+                </a>
+                <a href='https://saishin-zetta.github.io/password_generator/'>
+                    <img
+                        src={img2}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="Password Generator"
+                    />
+                </a>
+            </div>
+
+            <div className="col-lg-4 mb-4 mb-lg-0">
+                <a href='https://saishin-zetta.github.io/note_taker/'>
+                    <img
+                        src={img3}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="Note Taker"
                     />
                 </a>
 
-                <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-                    className="w-100 shadow-1-strong rounded mb-4"
-                    alt="Wintry Mountain Landscape"
-                />
+                <a href='https://saishin-zetta.github.io/daily_planner/'>
+                    <img
+                        src={img4}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="Daily Planner"
+                    />
+                </a>
             </div>
-
+            
             <div className="col-lg-4 mb-4 mb-lg-0">
-                <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-                    className="w-100 shadow-1-strong rounded mb-4"
-                    alt="Mountains in the Clouds"
-                />
+                <a href='https://github.com/Saishin-Zetta/mapping/blob/main/README.md'>
+                    <img
+                        src={img5}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="Relational Mapping"
+                    />
+                </a>
 
-                <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                    className="w-100 shadow-1-strong rounded mb-4"
-                    alt="Boat on Calm Water"
-                />
-            </div>
-
-            <div className="col-lg-4 mb-4 mb-lg-0">
-                <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-                    className="w-100 shadow-1-strong rounded mb-4"
-                    alt="Waves at Sea"
-                />
-
-                <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-                    className="w-100 shadow-1-strong rounded mb-4"
-                    alt="Yosemite National Park"
-                />
+                <a href='https://github.com/Saishin-Zetta/PWA/blob/main/README.md'>
+                    <img
+                        src={img6}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="Text Editor"
+                    />
+                </a>
             </div>
         </div>
 
