@@ -25,6 +25,9 @@ function App() {
           <li className="nav-item">
             <a className="nav-link" href='/projects'>Project</a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href='/resume'>Resume</a>
+          </li>
         </ul>
       </header>
 
@@ -44,8 +47,6 @@ function App() {
         </BrowserRouter>
 
       </div>
-
-      <footer>Here's my footer</footer>
     </>
 
   );

@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../images/gameBros.jpg'
+import img1 from '../images/gamebros2.jpg'
 
 const Projects = () => {
     return (
