@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.bodyHeight{
+  height: 150%;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: small;
+  
+  /* height: 15%; */
+}
+
