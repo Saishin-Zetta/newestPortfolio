@@ -80,3 +80,9 @@ body{
 .pngimage{
   height: fit-content;
 }
+
+.footer{
+  position: fixed;
+  left: 35%;
+  bottom: 0;
+}

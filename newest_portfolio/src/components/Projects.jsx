@@ -4,7 +4,7 @@ import img2 from '../images/passGen.png'
 import img3 from '../images/noteTaker.png'
 import img4 from '../images/dailyPlanner.png'
 import img5 from '../images/MySQL-Logo.png'
-import img5 from '../images/textEditor.png'
+import img6 from '../images/textEditor.png'
 
 
 

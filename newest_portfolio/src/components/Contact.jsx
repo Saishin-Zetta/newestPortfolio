@@ -93,8 +93,10 @@ export default function Contact() {
           </ul>
         </div>
       </div>
-      <footer>Here's my footer</footer>
+      
     </section>
+
+    
     
   )
 }
