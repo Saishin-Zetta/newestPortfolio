@@ -32,7 +32,7 @@ function App() {
       </header>
 
       <div className="App">
-{/* hash router for less static pages and brower router for more dynamic pages */}
+        
         <HashRouter>
           <Routes>
             <Route path='/' element={<About />} />
