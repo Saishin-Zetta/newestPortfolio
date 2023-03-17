@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/newestPortfolio/static/css/main.f6da2332.css",
+    "main.js": "/newestPortfolio/static/js/main.011698ed.js",
+    "static/js/787.3672edac.chunk.js": "/newestPortfolio/static/js/787.3672edac.chunk.js",
+    "static/media/passGen.png": "/newestPortfolio/static/media/passGen.8437e7d42ca94e77023b.png",
+    "static/media/gamebros2.jpg": "/newestPortfolio/static/media/gamebros2.9a7cc5a7708ed6b97133.jpg",
+    "static/media/MySQL-Logo.png": "/newestPortfolio/static/media/MySQL-Logo.b2fb121cbe9d9b7e6b53.png",
+    "static/media/island.png": "/newestPortfolio/static/media/island.9a60458efe0063fdb5c3.png",
+    "static/media/laBand.jpg": "/newestPortfolio/static/media/laBand.da08cce101567781a7b8.jpg",
+    "static/media/dailyPlanner.png": "/newestPortfolio/static/media/dailyPlanner.cd5b9ebecdaf61008b8e.png",
+    "static/media/noteTaker.png": "/newestPortfolio/static/media/noteTaker.681084396bf79a90ca56.png",
+    "static/media/textEditor.png": "/newestPortfolio/static/media/textEditor.a0e7b1b4d0de60cfde19.png",
+    "index.html": "/newestPortfolio/index.html",
+    "main.f6da2332.css.map": "/newestPortfolio/static/css/main.f6da2332.css.map",
+    "main.011698ed.js.map": "/newestPortfolio/static/js/main.011698ed.js.map",
+    "787.3672edac.chunk.js.map": "/newestPortfolio/static/js/787.3672edac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6da2332.css",
+    "static/js/main.011698ed.js"
+  ]
+}
