@@ -14,7 +14,7 @@ function App() {
       <header className='navbarHeader'>Andrew Young
         <ul className="nav justify-content-center">
           <li className="nav-item">
-            <Link className="nav-link" to='/about'>About</Link>
+            <Link className="nav-link" to='/'>About</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to='/contact'>Contact</Link>
@@ -35,7 +35,7 @@ function App() {
 {/* hash router for less static pages and brower router for more dynamic pages */}
         <HashRouter>
           <Routes>
-            <Route path='/about' element={<About />} />
+            <Route path='/' element={<About />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/blog' element={<Blog />} />
             <Route path='/Projects' element={<Projects />} />
