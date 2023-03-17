@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route, Link } from 'react-router-dom'
 import './App.css';
 import React from "react";
 
@@ -14,19 +14,19 @@ function App() {
       <header className='navbarHeader'>Andrew Young
         <ul className="nav justify-content-center">
           <li className="nav-item">
-            <a className="nav-link" href='/about'>About</a>
+            <Link className="nav-link" to='/about'>About</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href='/contact'>Contact</a>
+            <Link className="nav-link" to='/contact'>Contact</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href='/blog'>Blog</a>
+            <Link className="nav-link" to='/blog'>Blog</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href='/projects'>Project</a>
+            <Link className="nav-link" to='/projects'>Project</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href='/resume'>Resume</a>
+            <Link className="nav-link" to='/resume'>Resume</Link>
           </li>
         </ul>
       </header>
