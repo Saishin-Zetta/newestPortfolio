@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import './App.css';
 import React from "react";
 
@@ -32,15 +32,15 @@ function App() {
       </header>
 
       <div className="App">
-
-        <BrowserRouter>
+{/* hash router for less static pages and brower router for more dynamic pages */}
+        <HashRouter>
           <Routes>
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/blog' element={<Blog />} />
             <Route path='/Projects' element={<Projects />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
 
 
       </div>
