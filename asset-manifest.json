@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/newestPortfolio/static/css/main.f6da2332.css",
-    "main.js": "/newestPortfolio/static/js/main.e04ac8d7.js",
-    "static/js/787.3672edac.chunk.js": "/newestPortfolio/static/js/787.3672edac.chunk.js",
+    "main.js": "/newestPortfolio/static/js/main.92b2ff78.js",
     "static/media/passGen.png": "/newestPortfolio/static/media/passGen.8437e7d42ca94e77023b.png",
     "static/media/gamebros2.jpg": "/newestPortfolio/static/media/gamebros2.9a7cc5a7708ed6b97133.jpg",
     "static/media/MySQL-Logo.png": "/newestPortfolio/static/media/MySQL-Logo.b2fb121cbe9d9b7e6b53.png",
@@ -13,11 +12,10 @@
     "static/media/textEditor.png": "/newestPortfolio/static/media/textEditor.a0e7b1b4d0de60cfde19.png",
     "index.html": "/newestPortfolio/index.html",
     "main.f6da2332.css.map": "/newestPortfolio/static/css/main.f6da2332.css.map",
-    "main.e04ac8d7.js.map": "/newestPortfolio/static/js/main.e04ac8d7.js.map",
-    "787.3672edac.chunk.js.map": "/newestPortfolio/static/js/787.3672edac.chunk.js.map"
+    "main.92b2ff78.js.map": "/newestPortfolio/static/js/main.92b2ff78.js.map"
   },
   "entrypoints": [
     "static/css/main.f6da2332.css",
-    "static/js/main.e04ac8d7.js"
+    "static/js/main.92b2ff78.js"
   ]
 }
