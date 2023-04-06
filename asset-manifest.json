@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/newestPortfolio/static/css/main.f6da2332.css",
-    "main.js": "/newestPortfolio/static/js/main.92b2ff78.js",
+    "main.js": "/newestPortfolio/static/js/main.b04b714c.js",
     "static/media/passGen.png": "/newestPortfolio/static/media/passGen.8437e7d42ca94e77023b.png",
     "static/media/gamebros2.jpg": "/newestPortfolio/static/media/gamebros2.9a7cc5a7708ed6b97133.jpg",
+    "static/media/WoT.png": "/newestPortfolio/static/media/WoT.4ef931fc5f34f1872c60.png",
     "static/media/MySQL-Logo.png": "/newestPortfolio/static/media/MySQL-Logo.b2fb121cbe9d9b7e6b53.png",
     "static/media/island.png": "/newestPortfolio/static/media/island.9a60458efe0063fdb5c3.png",
     "static/media/laBand.jpg": "/newestPortfolio/static/media/laBand.da08cce101567781a7b8.jpg",
@@ -12,10 +13,10 @@
     "static/media/textEditor.png": "/newestPortfolio/static/media/textEditor.a0e7b1b4d0de60cfde19.png",
     "index.html": "/newestPortfolio/index.html",
     "main.f6da2332.css.map": "/newestPortfolio/static/css/main.f6da2332.css.map",
-    "main.92b2ff78.js.map": "/newestPortfolio/static/js/main.92b2ff78.js.map"
+    "main.b04b714c.js.map": "/newestPortfolio/static/js/main.b04b714c.js.map"
   },
   "entrypoints": [
     "static/css/main.f6da2332.css",
-    "static/js/main.92b2ff78.js"
+    "static/js/main.b04b714c.js"
   ]
 }
