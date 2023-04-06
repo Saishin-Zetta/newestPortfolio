@@ -5,6 +5,7 @@ import img3 from '../images/noteTaker.png'
 import img4 from '../images/dailyPlanner.png'
 import img5 from '../images/MySQL-Logo.png'
 import img6 from '../images/textEditor.png'
+import img7 from '../images/WoT.png'
 
 
 
@@ -61,6 +62,16 @@ const Projects = () => {
                         src={img6}
                         className="w-100 shadow-1-strong rounded mb-4"
                         alt="Text Editor"
+                    />
+                </a>
+            </div>
+
+            <div className="col-lg-4 mb-4 mb-lg-0">
+                <a href='https://wotsproject.herokuapp.com/#/'>
+                    <img
+                        src={img7}
+                        className="w-100 shadow-1-strong rounded mb-4"
+                        alt="Relational Mapping"
                     />
                 </a>
             </div>
